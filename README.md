@@ -1,1 +1,1 @@
-# rgbgame
+# A Beautiful RGB Guessing Game
