@@ -97,7 +97,7 @@ $("#easy").on('click', function(){
         $("#hard").removeClass('active');
         startGame(3);
         for(let i=3;i<6;i++){
-            $(".square")[i].style.backgroundColor = '#232323';
+            $(".square")[i].style.display = 'none';
         }
     }
 });
@@ -109,6 +109,7 @@ $("#hard").on('click', function(){
         $(this).addClass('active');
         $("#easy").removeClass('active');
         startGame(6);
+        $(".square").show();
     }
 });
 /*------------------------------------------*/
